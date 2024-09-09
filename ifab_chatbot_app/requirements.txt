@@ -1,0 +1,5 @@
+sentence_transformers==2.7.0
+streamlit
+elasticsearch
+openai
+psycopg2-binary

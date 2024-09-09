@@ -1,0 +1,15 @@
+apiVersion: 1
+
+datasources:
+  - name: grafana-postgresql-datasource
+    type: postgres
+    access: proxy
+    url: magic-database:5432  # Adjust the host and port accordingly
+    database: magic
+    user: postgres
+    secureJsonData:
+      password: password
+    jsonData:
+      sslMode: disable  # Use 'require' for SSL connections
+      postgresVersion: 904  # Adjust the PostgreSQL version if needed
+    isDefault: true
