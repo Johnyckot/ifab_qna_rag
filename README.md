@@ -1,7 +1,7 @@
 # IFAB Football Rules Chatbot Application README
 
 ## 1. Problem Description
-Football (soccer) is the most popular sport game in the world, but its rules might be confusing even for true football experts. Moreover, football rools are constantly evolving. If you have a tricky question regarding it, The IFAB Football Rules Chatbot is designed to answer inquiries related to the rules of football, leveraging the authoritative source from The International Football Association Board (IFAB) available at [https://www.theifab.com/](https://www.theifab.com/). IFAB is recognized globally for establishing and amending the laws that govern the game of football.
+Football (soccer) is the most popular sport game in the world, but its rules might be confusing even for true football experts. Moreover, football rules are constantly evolving. If you have a tricky question regarding it, The IFAB Football Rules Chatbot is designed to answer inquiries related to the rules of football, leveraging the authoritative source from The International Football Association Board (IFAB) available at [https://www.theifab.com/](https://www.theifab.com/). IFAB is recognized globally for establishing and amending the laws that govern the game of football.
 
 ## 2. RAG Flow
 The application employs the Retrieve-and-Generate (RAG) pattern to fetch and process data:
