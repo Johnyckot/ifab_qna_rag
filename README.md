@@ -35,9 +35,12 @@ Developed using Streamlit, the interface offers a user-friendly experience with 
 
 ## 5. Ingestion Pipeline
 Utilizing Mage Orchestrator. Pipeline consists of 3 jobs
-- **Data Scraping**: Job `jb_scrap_from_web` retrieves and parses data from the IFAB website.
-- **Data Transformation**: Job `jb_transform_ifab_data` cleans and prepares the data including vector embeddings.
-- **Data Storage**: Job `jb_store_to_elasticsearch` saves data into the respective Elasticsearch index.
+- **Data Scraping**: Job `jb_scrap_from_web` retrieves and parses data from the IFAB website.  
+  Source Code: `mage\llm\rager\data_loaders\jb_scrap_from_web.py`
+- **Data Transformation**: Job `jb_transform_ifab_data` cleans and prepares the data including vector embeddings.  
+  Source Code: `mage\llm\rager\transformers\jb_transform_ifab_data.py`
+- **Data Storage**: Job `jb_store_to_elasticsearch` saves data into the respective Elasticsearch index.  
+   Source Code: `mage\llm\rager\data_exporters\jb_store_to_elasticsearch.py`
   
   ![Mage pipeline](images/Mage_pipeline.png)
 
